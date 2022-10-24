@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/header.css" />
+	<link rel="stylesheet" type="text/css" href="../css/book.css" />
+	<link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+	<title>Elastic</title>
+
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<div class="wrapper-header">
+			<header>
+
+				<div class="logo">
+					<a href="../index.html">
+						<div class="logo_image"><img src="../img/logo.png" alt="logo" title="Home page"></div>
+
+					</a>
+				</div>
+				<div class="media_menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="header-list">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="./book.html">Book</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+						<li><a href="./about.html">About</a></li>
+					</ul>
+				</div>
+			</header>
+			?>
+		</div>
+
+		<div class="wrapper-content">
+			<div class="wrapper-content-limited">
+				<!-- welcome start -->
+				<div class="wrapper-welcome">
+					<h1>Welcome to the booking page!</h1>
+					<p>Kindly provide necessary informations by attending to the questions below.</p>
+				</div>
+				<!-- welcome end -->
+			</div>
+			<!-- booking start -->
+			<div class="wrapper_booking_for">
+				<div class="booking_title">
+					<h2>What you booking for?</h2>
+					<p>(you can select multiple options)</p>
+				</div>
+				<div class="search-styles">
+					<form method="GET" class="booking-for-search">
+						<input type="radio" name="f1" id="f1" checked />
+						<label for="f1" class="radios">Engagement</label>
+
+						<input type="radio" name="f2" id="f2" />
+						<label for="f2" class="radios">Business event</label>
+
+						<input type="radio" name="f3" id="f3" checked />
+						<label for="f3" class="radios">Wedding</label>
+
+						<input type="radio" name="f4" id="f4" />
+						<label for="f4" class="radios">Birthday</label>
+
+						<input type="radio" name="f5" id="f5" />
+						<label for="f5" class="radios">Maternity</label>
+
+						<input type="radio" name="f6" id="f7" />
+						<label for="f7" class="radios">Graduation</label>
+
+						<input type="radio" name="f8" id="f8" />
+						<label for="f8" class="radios">Product</label>
+
+						<input type="radio" name="f9" id="f9" checked />
+						<label for="f8" class="radios">Honeymoon</label>
+
+						<input type="radio" name="f10" id="f10" />
+						<label for="f10" class="radios">Fashion</label>
+
+						<input type="radio" name="f11" id="f11" />
+						<label for="f11" class="radios">Anniversary</label>
+
+						<input type="radio" name="f12" id="f12" />
+						<label for="f12" class="radios">Food</label>
+
+						<input type="radio" name="f13" id="f13" />
+						<label for="f13" class="radios">Conference</label>
+
+						<input type="radio" name="f14" id="f14" />
+						<label for="f14" class="radios">Team and workspace</label>
+
+						<input type="radio" name="f15" id="f15" />
+						<label for="f15" class="radios">Personal Potrait</label>
+
+						<input type="radio" name="f16" id="f16" />
+						<label for="f16" class="radios">Family</label>
+
+						<input type="radio" name="f17" id="f17" />
+						<label for="f17" class="radios">Travel shoot</label>
+
+						<input type="radio" name="f18" id="f18" />
+						<label for="f18" class="radios">Engagement</label>
+
+						<input type="radio" name="f19" id="f19" />
+						<label for="f19" class="radios">Baby</label>
+
+						<input type="radio" name="f20" id="f20" checked />
+						<label for="f20" class="radios">Others</label>
+					</form>
+				</div>
+
+			</div>
+			<!-- booking end -->
+			<!-- photoshot start -->
+			<div class="wrapper-photoshot">
+				<div class="photoshot-title">
+					<h3>When and where is the photoshoot?</h3>
+				</div>
+				<div class="photoshot">
+					<form method="GET">
+						<input type="date" name="sdate" id="sdate" />
+						<label for="sdate" class="select_timing">Select date <img src="../img/open-select.svg"
+								alt="open" title="open select date"></label>
+
+						<input type="time" name="stime" id="stime" />
+						<label for="stime" class="select_timing">Select time <img src="../img/open-select.svg"
+								alt="open" title="open select time"></label>
+
+						<fieldset>
+							<legend>Address</legend>
+							<input type="text" name="saddress" id="saddress" placeholder="Enter the location address" />
+						</fieldset>
+
+					</form>
+				</div>
+			</div>
+			<!-- photoshot end -->
+			<!-- prefer start -->
+			<div class="wrapper-prefferd">
+				<div class="prefer-title">Select your preffered package</div>
+				<div class="packages">
+
+
+					<div class="package">
+						<div class="package-title">
+							Basic
+							<div class="package-price">
+
+								<p>&#x20A6; 30,000</p>
+							</div>
+						</div>
+
+						<div class="package-about">
+							<ul>
+								<li>1 hour shoot</li>
+								<li>Unlimited photos</li>
+								<li>Editing included</li>
+							</ul>
+						</div>
+						<div class="package-button">
+							<a href="#">Select</a>
+						</div>
+					</div>
+
+
+					<div class="package" id="take" name="take">
+						<div class="package-title">
+							Standard
+						</div>
+						<div class="package-price">
+							<p>&#x20A6; 50,000</p>
+						</div>
+						<div class="package-about">
+							<ul>
+								<li>2 hour shoot</li>
+								<li>Unlimited photos</li>
+								<li>Editing included</li>
+							</ul>
+						</div>
+						<div class="package-button">
+							<a href="#">Select</a>
+						</div>
+					</div>
+
+
+					<div class="package">
+						<div class="package-title">
+							Premium
+						</div>
+						<div class="package-price">
+							<p>&#x20A6; 80,000</p>
+						</div>
+						<div class="package-about">
+							<ul>
+								<li>3 hour shoot</li>
+								<li>Unlimited photos</li>
+								<li>Editing included</li>
+								<li>Free photobook</li>
+							</ul>
+						</div>
+						<div class="package-button">
+							<a href="#">Select</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- prefer-end -->
+
+			<!-- detalis start -->
+			<div class="wrapper-detalis">
+				<div class="detalis-title">
+					Kindly provide your contact details
+				</div>
+				<div class="detalis-form">
+					<form method="GET" class="details">
+						<fieldset>
+							<legend>Name</legend><input type="text" placeholder="Enter full name" required />
+						</fieldset>
+						<fieldset>
+							<legend>Phone number</legend>
+							<input type="tel" placeholder="Enter phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+								required />
+						</fieldset>
+						<fieldset>
+							<legend>Email</legend><input type="email" placeholder="Enter email address" required />
+						</fieldset>
+
+					</form>
+				</div>
+
+			</div>
+			<!-- detalis end -->
+
+			<div class="wrapper-footer">
+				<div class="footer_container">
+					<div class="book-now">
+						<a href="./contact.html" target="_blank">book now</a>
+					</div>
+					<div class="saveandbooklater">
+						<button type="button">Save and book later</button>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<span class="loader"><img src="../img/loader.gif" alt="Loader"></span>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="../js/script.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$("body").css("overflow", "hidden");
+			$(window).on("load", function () {
+				$('.loader').fadeOut("slow");
+				$("body").css("overflow", "auto");
+			});
+		</script>
+</body>
+
+</html>
